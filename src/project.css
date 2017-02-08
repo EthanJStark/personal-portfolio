@@ -1,0 +1,22 @@
+.project-image-frame {
+  text-align: center;
+}
+
+.project-image {
+  width: 200px;
+}
+
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #7e7e7e;
+}
+
+.project-title {
+  text-align: center;
+  font-weight: 100;
+  margin: .2em;
+}
+
+.description {
+  line-height: 1.5;
+}
