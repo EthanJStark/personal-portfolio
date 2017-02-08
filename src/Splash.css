@@ -1,0 +1,22 @@
+* {
+  -webkit-margin-after: 0em;
+  -webkit-margin-before: 0em;
+}
+
+.splash-background {
+  font-weight: lighter;
+  height: 650px;
+  text-align: center;
+}
+
+.headshot {
+  border-radius: 100%;
+  margin-top: 100px;
+  height: 100px;
+  width: 100px;
+}
+
+.header {
+  width: 60%;
+  margin: 0 auto;
+}

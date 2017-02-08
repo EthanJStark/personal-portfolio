@@ -4,15 +4,16 @@
 }
 
 .Navbar {
-  background-color: black;
+  background-color: white;
   height: 3em;
   margin: 0px;
 }
 
-h1 {
+.site-title {
   position: relative;
   font-size: 1.7em;
-  color: white;
+  font-weight: lighter;
+  color: #7e7e7e;
   text-align: center;
   padding: .3em;
 }
@@ -22,7 +23,7 @@ h1 {
   top: .1em;
   right: .2em;
   font-size: 2em;
-  color: white;
+  color: #7e7e7e;
 }
 
 .menu-extended {
