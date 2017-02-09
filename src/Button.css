@@ -1,0 +1,13 @@
+.button {
+  margin: 1em;
+  padding: 5px;
+  height: 1.5em;
+  width: 200px;
+  text-align: center;
+  display: inline-block;
+}
+
+.grey {
+  background-color: #7e7e7e;
+  color: white;
+}

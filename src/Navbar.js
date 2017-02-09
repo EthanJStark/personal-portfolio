@@ -42,7 +42,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <div className="Navbar">
-        <h1> Ethan Stark </h1>
+        <h1 className="site-title"> Ethan Stark </h1>
         <div className="hamburger" onClick={ this.toggleNavbar }> &#9776; </div>
         <div className={ this.menuClass() }>
           { this.menuItems() }
