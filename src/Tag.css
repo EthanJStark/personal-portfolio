@@ -1,0 +1,18 @@
+.tag-box {
+  background-color: #7e7e7e;
+  padding: 5px;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2em;
+}
+
+.tag {
+  margin: 3px;
+  padding: 2px 6px;
+  background-color: white;
+}
+
+.tag-header {
+  font-weight: bolder;
+}

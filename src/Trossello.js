@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import ProjectImage from './ProjectImage';
 import Button from './Button'
 import TextBox from './TextBox'
+import Tag from './Tag'
 import './project.css'
 
 class Trossello extends Component {
@@ -18,6 +19,7 @@ class Trossello extends Component {
           badgeImage='./img/github.png'
           badgeUrl='https://github.com/guildcrafts/trossello'
         />
+        <Tag />
       </div>
     )
   }
