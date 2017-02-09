@@ -8,10 +8,10 @@
 
 * {
   font-family: 'Source Sans Pro', sans-serif;
-  color: #7e7e7e;
 }
 
 .project-title {
+  color: #7e7e7e;
   text-align: center;
   font-weight: 100;
   margin: .2em;

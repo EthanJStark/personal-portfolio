@@ -1,10 +1,9 @@
 .button {
-  margin: 1em;
   padding: 5px;
   height: 1.5em;
   width: 200px;
+  margin: 1em auto;
   text-align: center;
-  display: inline-block;
 }
 
 .grey {
