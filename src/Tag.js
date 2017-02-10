@@ -5,14 +5,14 @@ export default class Tag extends Component {
 
   render(){
     return (
-    <div className='tag-box'>
-      <div className='tag-header'> Tags </div>
-      <span className='tag'> React </span>
-      <span className='tag'> SQL </span>
-      <span className='tag'> Webpack </span>
-      <span className='tag'> SASS </span>
-      <span className='tag'> ES6 </span>
-    </div>
+      <div className='tag'>
+        <div className='tag-header'> Tags </div>
+        <span className='tag-item'> React </span>
+        <span className='tag-item'> SQL </span>
+        <span className='tag-item'> Webpack </span>
+        <span className='tag-item'> SASS </span>
+        <span className='tag-item'> ES6 </span>
+      </div>
     )
   }
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class ProjectImage extends Component {
+export default class ProjectImage extends Component {
   render() {
     return (
       <div className='project-image-frame'>
@@ -9,5 +9,3 @@ class ProjectImage extends Component {
     )
   }
 }
-
-export default ProjectImage

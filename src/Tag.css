@@ -1,4 +1,4 @@
-.tag-box {
+.tag {
   background-color: #7e7e7e;
   padding: 5px;
   width: 200px;
@@ -7,7 +7,7 @@
   line-height: 2em;
 }
 
-.tag {
+.tag-item {
   margin: 3px;
   padding: 2px 6px;
   background-color: white;

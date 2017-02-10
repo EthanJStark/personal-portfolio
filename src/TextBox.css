@@ -1,11 +1,11 @@
-.textbox-wrapper {
+.textbox {
   margin: .5em auto;
   height: auto;
   width: 200px;
   text-align: center;
   color: #7e7e7e;
 }
-.textbox {
+.textbox-description {
   border: 1px solid #e9e9e9;
   margin: .5em auto;
   height: auto;
@@ -15,10 +15,7 @@
   color: #7e7e7e;
 }
 
-.badge-link {
-}
-
-img {
+.badge-image {
   position: relative;
   top: -15px;
   width: 25%;
