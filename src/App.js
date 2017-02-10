@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar';
 import Splash from './Splash';
-import Portfolio from './Portfolio';
+import PortfolioGallery from './PortfolioGallery';
+import allProjectData from './allProjectData'
 
 class App extends Component {
   render() {
@@ -9,7 +10,7 @@ class App extends Component {
       <div>
         <Navbar />
         <Splash />
-        <Portfolio />
+        <PortfolioGallery allProjectData={ allProjectData }/>
       </div>
     )
   }
