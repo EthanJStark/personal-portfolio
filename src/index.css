@@ -10,8 +10,21 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 a:visited {
   color: inherit;
+}
+
+.spacer {
+  border-bottom: 8px solid black;
+  width: 100px;
+  text-align: center;
+  margin: 1.5em auto;
+}
+
+.contact {
+  text-align: center;
+  margin-bottom: 3em;
 }
