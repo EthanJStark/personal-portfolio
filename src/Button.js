@@ -1,7 +1,16 @@
-import React, { Component } from 'react';
-import './Button.css';
+import React, { Component } from 'react'
+import smoothscroll from 'smoothscroll'
+import './Button.css'
 
 export default class Button extends Component {
+  static propTypes = {
+    url: React.PropTypes.string
+  }
+
+  onClick( event ) {
+    event.preventDefault()
+    smoothscroll( this.props.url )
+  }
 
   render() {
     return (
