@@ -1,4 +1,4 @@
-# Personal Portfolio site: EthanStark.com
+# Personal Portfolio site: live at www.EthanStark.com
 
 ### Usage
 
