@@ -5,18 +5,17 @@
 
 .splash-background {
   font-weight: lighter;
-  height: 650px;
   text-align: center;
 }
 
 .headshot {
   border-radius: 100%;
-  margin-top: 100px;
+  margin: 20px 0px;
   height: 100px;
   width: 100px;
 }
 
-.header {
+.headline {
   width: 60%;
   margin: 0 auto;
 }
@@ -25,12 +24,3 @@
   font-size: 4em;
 }
 
-/*.portfolio-container {
-  border: 1px grey solid;
-  width: 70%;
-  margin: 0 auto;
-}
-
-.project {
-  display: inline-block;
-}*/

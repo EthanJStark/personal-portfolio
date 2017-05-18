@@ -9,7 +9,9 @@ export default class Contact extends Component {
         <h2>
           <a href='mailto:ethanstark@gmail.com'>EthanStark@gmail.com</a>
         </h2>
-        <h2>414.731.2172</h2>
+        <h2>
+          <a href='tel:414-731-2172'>414.731.2172</a>
+        </h2>
       </div>
     )
   }

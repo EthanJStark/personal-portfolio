@@ -2,16 +2,11 @@
   text-align: center;
 }
 
-.project-image {
-  width: 200px;
-  margin-top: 2em;
-}
-
 * {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.project-title {
+.project-header {
   color: #7e7e7e;
   text-align: center;
   font-weight: 100;
