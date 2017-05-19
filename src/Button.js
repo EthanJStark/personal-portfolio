@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import smoothscroll from 'smoothscroll'
 import './Button.css'
 
 export default class Button extends Component {
@@ -9,7 +8,6 @@ export default class Button extends Component {
 
   onClick( event ) {
     event.preventDefault()
-    smoothscroll( this.props.url )
   }
 
   render() {

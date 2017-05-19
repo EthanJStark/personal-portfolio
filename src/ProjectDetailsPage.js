@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router'
-import Navbar from './Navbar';
-import ProjectImage from './ProjectImage';
+import Header from './Header'
+import ProjectImage from './ProjectImage'
 import Button from './Button'
 import TextBox from './TextBox'
 import Tag from './Tag'
@@ -17,7 +16,7 @@ export default class ProjectDetailsPage extends Component {
     const {
       projectName,
       liveSite,
-      longDescription,
+      shortDescription,
       githubLink,
     } = this.props.projectData
 
@@ -26,15 +25,13 @@ export default class ProjectDetailsPage extends Component {
 
     return (
       <div className='project'>
-        <Navbar />
-        <h1 className='project-title'>
+        <Header text={ 'Ethan Stark'}/>
+        <h1 className='project-header'>
           { projectName }
         </h1>
-        <Link to='/trossello'>
-          <ProjectImage projectData={ this.props.projectData }/>
-        </Link>
+        <ProjectImage projectData={ this.props.projectData }/>
         { button }
-        <TextBox description={ longDescription } badgeUrl={ githubLink } />
+        <TextBox description={ shortDescription } badgeUrl={ githubLink } />
         <Tag />
       </div>
     )

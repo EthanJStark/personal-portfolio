@@ -1,0 +1,15 @@
+.site-title {
+  position: relative;
+  font-size: 1.7em;
+  font-weight: lighter;
+  color: #7e7e7e;
+  text-align: center;
+  margin: .3em;
+}
+
+@media (min-width: 800px) {
+  .site-title {
+    font-size: 3em;
+    
+  }
+}
